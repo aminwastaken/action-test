@@ -6,6 +6,9 @@
             "email": "maurizio.moreo@gmail.com"
         }
     ],
+    "scripts": {
+    	"test" : "vendor/bin/phpunit tests" 
+    },
     "require": {
         "phpunit/phpunit": "*",
         "nesbot/carbon": "*"
@@ -13,7 +16,6 @@
     "autoload": {
         "classmap": [
             "Calculatrice.php",
-            "User.php"
         ]
     },
     "license": "MIT",
