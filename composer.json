@@ -16,5 +16,6 @@
             "User.php"
         ]
     },
-    "license": "MIT"
+    "license": "MIT",
+    "description" : "Hi i'm a description"
 }
